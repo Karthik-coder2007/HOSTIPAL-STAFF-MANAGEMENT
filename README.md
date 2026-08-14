@@ -1,91 +1,45 @@
-# 🏥 Hospital Management System
-
-A web-based Hospital Management System designed to manage hospital operations such as patients, doctors, appointments, medical records, and billing.
+# 🏥 Hospital Management Analytics
 
 ## 📌 Project Overview
 
-The Hospital Management System helps hospitals and clinics manage their daily activities efficiently through a centralized digital platform.
+This project is a **Hospital Management and Analytics System** developed using **SQL Server and Microsoft Power BI**.
 
-The system allows administrators and hospital staff to manage patient information, doctor details, appointments, medical records, and billing.
+The project focuses on storing hospital data in a relational database using SQL Server and transforming that data into meaningful dashboards and insights using Power BI.
 
-## 🚀 Features
+The dashboard helps hospital management analyze **doctors, patients, departments, appointments, treatments, and hospital performance**.
 
-- 👨‍⚕️ Doctor Management
-  - Add doctors
-  - Update doctor information
-  - View doctor details
-  - Manage doctor specialization
-
-- 🧑‍🤝‍🧑 Patient Management
-  - Register patients
-  - Update patient information
-  - View patient medical details
-  - Search patients
-
-- 📅 Appointment Management
-  - Book appointments
-  - View appointments
-  - Update appointment status
-  - Manage doctor schedules
-
-- 📋 Medical Records
-  - Store patient medical history
-  - Record diagnosis
-  - Maintain treatment details
-  - Track prescriptions
-
-- 💳 Billing Management
-  - Generate bills
-  - Track payments
-  - View billing history
-
-- 📊 Dashboard
-  - Total patients
-  - Total doctors
-  - Appointments
-  - Revenue
-  - Hospital statistics
+---
 
 ## 🛠️ Technologies Used
 
-### Frontend
-- HTML
-- CSS
-- JavaScript
-- Bootstrap / React (if applicable)
+- **SQL Server** – Database management and SQL queries
+- **Microsoft Power BI** – Data visualization and dashboard creation
+- **DAX** – Data analysis and calculated measures
+- **Power Query** – Data cleaning and transformation
 
-### Backend
-- Python / Java / Node.js (depending on implementation)
+---
 
-### Database
-- MySQL / SQL Server
+## 🗄️ Database
 
-### Tools
-- VS Code
-- Git
-- GitHub
+The hospital database contains information related to:
 
-## 🗂️ Project Structure
+- Doctors
+- Patients
+- Departments
+- Appointments
+- Treatments
+- Billing
+- Medical Records
+
+### Main Tables
 
 ```text
-Hospital-Management-System/
+HospitalDB
 │
-├── frontend/
-│   ├── index.html
-│   ├── patients.html
-│   ├── doctors.html
-│   ├── appointments.html
-│   └── css/
-│
-├── backend/
-│   ├── app.py
-│   ├── routes/
-│   └── models/
-│
-├── database/
-│   └── hospital.sql
-│
-├── images/
-│
-├── README.md
-└── requirements.txt
+├── Doctors
+├── Patients
+├── Departments
+├── Appointments
+├── Treatments
+├── MedicalRecords
+└── Billing
